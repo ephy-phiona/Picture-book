@@ -2,14 +2,15 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnBackk3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PictureBook3">
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="397dp"
-        android:layout_height="462dp"
+        android:layout_width="470dp"
+        android:layout_height="476dp"
         android:layout_marginStart="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,7 +34,7 @@
         app:layout_constraintVertical_bias="0.04" />
 
     <Button
-        android:id="@+id/btnBack3"
+        android:id="@+id/btnBackkk3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="133dp"
@@ -43,18 +44,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.116"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtWord3" />
+        app:layout_constraintTop_toBottomOf="@+id/txtWord3"
+        app:layout_constraintVertical_bias="0.88" />
 
     <Button
-        android:id="@+id/btnNext3"
+        android:id="@+id/btnNextt3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="103dp"
         android:layout_marginEnd="32dp"
+        android:layout_marginBottom="36dp"
         android:text="Next"
-        app:layout_constraintBottom_toBottomOf="@+id/btnBack3"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.909"
-        app:layout_constraintStart_toEndOf="@+id/btnBack3"
-        app:layout_constraintTop_toTopOf="@+id/btnBack3"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintStart_toEndOf="@+id/btnBackkk3"
+        app:layout_constraintTop_toBottomOf="@+id/txtWord3" />
 </androidx.constraintlayout.widget.ConstraintLayout>
